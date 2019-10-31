@@ -9,21 +9,12 @@ class Home_model extends CI_Model
         return $query->result();
     }
 
-    public function insert_entry()
-    {
-        $this->title    = $_POST['title']; // please read the below note
-        $this->content  = $_POST['content'];
-        $this->date     = time();
-
-        $this->db->insert('entries', $this);
+    public function get_jurusan(){
+        $query = $this->db->get('tbl_jurusan');
+        return $query->result();        
     }
 
-    public function update_entry()
-    {
-        $this->title    = $_POST['title'];
-        $this->content  = $_POST['content'];
-        $this->date     = time();
-
-        $this->db->update('entries', $this, array('id' => $_POST['id']));
+    public function add_mahasiswa($data){
+        $query = $this->db->insert("tbl_mahasiswa",$data);
     }
 }
