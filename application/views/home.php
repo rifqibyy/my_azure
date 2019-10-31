@@ -8,6 +8,7 @@
 </head>
 <body>
     <form action="">
+        <?php var_dump($mhs) ?>
     </form>
 </body>
 </html>
