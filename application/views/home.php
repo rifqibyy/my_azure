@@ -8,7 +8,7 @@
 </head>
 <body>
     <form action="">
-        <?php var_dump($mhs) ?>
+        <?php var_dump($mahasiswa) ?>
     </form>
 </body>
 </html>
