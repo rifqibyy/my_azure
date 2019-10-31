@@ -33,11 +33,11 @@
                 <form action="<?= base_url('home/add') ?>" method="post">
                     <div class="form-group">
                         <label for="nim">NIM</label>
-                        <input type="text" class="form-control" name="nim" id="nim" placeholder="Enter NIM" required>
+                        <input type="text" class="form-control" name="nim" id="nim" placeholder="Masukan NIM" required>
                     </div>
                     <div class="form-group">
                         <label for="nama">Nama</label>
-                        <input type="text" class="form-control" name="nama" id="nama" placeholder="Password" required>
+                        <input type="text" class="form-control" name="nama" id="nama" placeholder="Masukan Nama" required>
                     </div>
                     <div class="form-group">
                         <label for="jenis_kelamin">Jenis Kelamin</label>
@@ -48,15 +48,15 @@
                     </div>
                     <div class="form-group">
                         <label for="alamat">Alamat</label>
-                        <input type="text" class="form-control" name="alamat" id="alamat" placeholder="Password" required>
+                        <input type="text" class="form-control" name="alamat" id="alamat" placeholder="Masukan Alamat" required>
                     </div>
                     <div class="form-group">
                         <label for="tempat_lahir">Tempat Lahir</label>
-                        <input type="text" class="form-control" name="tempat_lahir" id="tempat_lahir" placeholder="Password" required>
+                        <input type="text" class="form-control" name="tempat_lahir" id="tempat_lahir" placeholder="Masukan Tempat Lahir" required>
                     </div>
                     <div class="form-group">
                         <label for="tanggal_lahir">Tanggal Lahir</label>
-                        <input type="text" class="form-control" name="tanggal_lahir" id="tanggal_lahir" placeholder="Password" required>
+                        <input type="text" class="form-control" name="tanggal_lahir" id="tanggal_lahir" placeholder="Masukan Tanggal Lahir" required>
                     </div>
                     <div class="form-group">
                         <label for="jurusan">Jurusan</label>
